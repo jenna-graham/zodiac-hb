@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="app">
       {/* import and use the Header. Main, and Footer components here */}
-      <Header Name ='jenna' />  
+      <Header name ='jenna' />  
       <Main zodiacs= {zodiac} />
-      <Footer date='2022' />
+      <Footer year='2022' />
       {/* the Header component needs a string passed in as the `name` prop */}
       {/* the Footer component needs a year passed in as the `year` prop */}
       {/* pass the zodiac array imported above to the Main component as a `zodiacs` prop */}
